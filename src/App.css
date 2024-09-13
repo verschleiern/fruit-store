@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Add this CSS to index.css or another CSS file */
+
+.yt-embed-holder mb-4 {
+  width:100%;
+  overflow:hidden;
+  aspect-ratio: 16/9;
+  pointer-events: none;
+}
+
+.yt-embed-holder iframe {
+  width:300%;
+  heigth:100%;
+  margin-left:-101%;
+}
+
+.ytp-chrome-top ytp-show-cards-title {
+  display: none !important;
+}
+
